@@ -1,0 +1,22 @@
+{
+  "name": "koenster/DNSChecker",
+  "description": "An object to check DNS records with expected values.",
+  "keywords": ["dns", "checker"],
+  "license": "MIT",
+  "type": "project",
+  "require": {
+    "php": ">=5.5.9"
+  },
+  "require-dev": {
+    "mockery/mockery": "0.9.*",
+    "phpunit/phpunit": "~4.0"
+  },
+  "autoload": {
+    "classmap": [
+
+    ],
+    "psr-4": {
+      "koenster\\DNSChecker\\": "src/"
+    }
+  }
+}
