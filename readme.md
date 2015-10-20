@@ -4,8 +4,8 @@ DNSHelper is a simple collection of objects to use DNS records with PHP in a mor
 
 The Helper exists of 2 parts:
 
-*Feeder - Make a DNS Collection on a given implementation (only PHP at ths moment)
-*Checker - Check the values from the DNS Collection to the expected values
+* Feeder - Make a DNS Collection on a given implementation (only PHP at ths moment)
+* Checker - Check the values from the DNS Collection to the expected values
 
 ##Installation
 
@@ -96,9 +96,10 @@ We have found some inconsistency within the settings on different servers. This 
 
 ##Todo's
 
-*DNS tool seems not to be working on Homestead (vagrant). Let's look at the config files.
-*check if TXT returns multiple entries in "entries" field
+* DNS tool seems not to be working on Homestead (vagrant). Let's look at the config files.
+* check if TXT returns multiple entries in "entries" field
 
 ##Authors
-Koen Blokland Visser
-Richard Oosterhof
+
+* Koen Blokland Visser
+* Richard Oosterhof

@@ -1,6 +1,6 @@
 <?php namespace koenster\DNSChecker\Contract;
 
-use koenster\DNSChecker\DNS;
+use koenster\DNSChecker\DNSCollection;
 
 interface DNSFeederContract {
 
@@ -10,7 +10,7 @@ interface DNSFeederContract {
      * @author Koen Blokland Visser
      * @author Richard Oosterhof
      *
-     * @return DNS
+     * @return DNSCollection
      */
     public function feed($domainName);
 }
